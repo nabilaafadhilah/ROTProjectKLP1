@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://img.freepik.com/free-vector/technology-background-with-abstract-hud_23-2148250643.jpg?size=626&ext=jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0b2a43;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #0b2a43;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff0000;
+}
+
+.result {
+    display: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    border-left: 4px solid #0b2a43;
+    border-radius: 5px;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+}
+
+.result h2 {
+    margin-top: 0;
+    color: #0b2a43;
+}
+
+footer {
+    text-align: center;
+    padding: 0.1rem;
+    background-color: #0b2a43;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.result button {
+    margin-top: 1rem;
+    padding: 0.75rem 1rem;
+    background-color: #0b2a43;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.result button:hover {
+    background-color: #ff0000;
+}

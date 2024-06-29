@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kriptografi ROT 13 & ROT 128</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kriptografi ROT 13 & ROT 128</h1>
+    </header>
+    <main>
+        <form id="cryptoForm">
+            <label for="text">Masukkan Teks:</label>
+            <textarea id="text" rows="4" placeholder="Masukkan teks yang ingin di dekripsi atau di enkripsi..." required></textarea>
+            <label for="method">Pilih Metode:</label>
+            <select id="method">
+                <option value="EncryptROT13">Enkripsi (ROT13)</option>
+                <option value="EncryptROT128">Enkripsi (ROT128)</option>
+                <option value="DecryptROT13">Dekripsi (ROT13)</option>
+                <option value="DecryptROT128">Dekripsi (ROT128)</option>
+            </select>
+            <input type="submit" value="Submit">
+        </form>
+        <div class="result" id="resultContainer">
+            <h2 id="resultHeader"></h2>
+            <p id="resultText"></p>
+            <button onclick="copyToClipboard()">Salin</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Project Kriptografi Kelompok 1 KSK(A)</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
